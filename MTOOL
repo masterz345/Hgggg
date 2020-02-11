@@ -1,0 +1,137 @@
+GNU nano 4.8                                                    MasterTool.sh
+
+#Script By MasterZ
+
+clear
+
+figlet "MTOOL"
+
+sleep 3
+
+echo "\033[34;1m=============================="
+
+echo "\033[33;1mAuthor : MasterZ"
+
+echo "\033[33;1mYoutube : MasterZFF"
+
+echo "\033[33;1mInstagram : 9999_ID"
+
+echo "\033[34;1m=============================="
+
+echo ""
+
+echo "\033[36;1m=============================="
+
+echo ""
+
+echo "\033[35;1mPilih Menu Sesuai Kebutuhan"
+
+echo ""
+
+echo "\033[31;1m[1]Hack Camera"
+
+echo "\033[31;1m[2]Special Termux"
+
+echo "\033[31;1m[3]Ping Google"
+
+echo "\033[31;1m[4]Spam Sms"
+
+echo ""
+
+echo "\033[36;1m=============================="
+
+echo "\033[1;37m"
+
+read -p "[?] Pilih Menu : " pil :
+
+# batas gan
+
+if [ $pil = 1 ]
+
+then
+
+git clone https://github.com/Mr-xDODOL/saycheese
+
+clear
+
+echo "Processing..."
+
+sleep 8
+
+clear
+
+cd saycheese
+
+bash saycheese.sh
+
+fi
+
+# batas gan
+
+if [ $pil = 2 ]
+
+then
+
+pkg install wget
+
+clear
+
+echo "processing..."
+
+sleep 8
+
+clear
+
+wget  https://raw.githack.com/kumpul4semut/newtermux/master/key.py
+
+clear
+
+cd key.py
+
+chmod +x key.py
+
+python key.py
+
+fi
+
+# batas gan
+
+if [ $pil = 3 ]
+
+then
+
+clear
+
+echo "processing"
+
+sleep 4
+
+clear
+
+www.google.com
+
+echo "Starting Check Ping..."
+
+ping www.google.com
+
+fi
+
+# batas gan
+
+if [ $pil = 4 ]
+
+then
+
+https://github.com/masterz345/Hgggg
+
+clear
+
+echo "processing..."
+
+sleep 8
+
+cd Hgggg
+
+sh spam.sh
+
+fi
